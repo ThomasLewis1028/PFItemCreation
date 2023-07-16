@@ -1,0 +1,1560 @@
+[
+  {
+    "Ability": "Adaptive",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/adaptive",
+    "Cost": 1000,
+    "Types": [
+      "Ranged"
+    ]
+  },
+  {
+    "Ability": "Shrinking",
+    "EnhancementBonus": 1,
+    "Link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Shrinking",
+    "Cost": 1000,
+    "Types": [
+      "Ranged"
+    ]
+  },
+  {
+    "Ability": "Dry load",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/dry-load",
+    "Cost": 1500,
+    "Types": [
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Impervious",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/impervious",
+    "Cost": 3000,
+    "Types": [
+      "Melee",
+      "Ranged"
+    ]
+  },
+  {
+    "Ability": "Glamered",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/glamered",
+    "Cost": 4000,
+    "Types": [
+      "Melee",
+      "Ranged"
+    ]
+  },
+  {
+    "Ability": "Allying",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/allying",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged"
+    ]
+  },
+  {
+    "Ability": "Bane",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/bane",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Benevolent",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/benevolent",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Called",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/called",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged"
+    ]
+  },
+  {
+    "Ability": "Conductive",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/conductive",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Corrosive",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/corrosive",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Conserving",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/conserving",
+    "Cost": 0,
+    "Types": [
+      "Ranged"
+    ]
+  },
+  {
+    "Ability": "Countering",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/countering",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Courageous",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/courageous",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Cruel",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/cruel",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Cunning",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/cunning",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Distance",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/distance",
+    "Cost": 0,
+    "Types": [
+      "Ranged"
+    ]
+  },
+  {
+    "Ability": "Deadly",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/deadly",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Defending",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/defending",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Dispelling",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/dispelling",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Flaming",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/flaming",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Frost",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/frost",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Furious",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/furious",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Ghost Touch",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/ghost-touch",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Grayflame",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/grayflame",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Grounding",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/grounding",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Guardian",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/guardian",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Heartseeker",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/heartseeker",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Huntsman",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/huntsman",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged"
+    ]
+  },
+  {
+    "Ability": "Jurist",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/jurist",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged"
+    ]
+  },
+  {
+    "Ability": "Keen",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/keen",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Ki focus",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/ki-focus",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Limning",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/limning",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Lucky",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/lucky",
+    "Cost": 0,
+    "Types": [
+      "Ranged"
+    ]
+  },
+  {
+    "Ability": "Menacing",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/menacing",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Merciful",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/merciful",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Mighty cleaving",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/mighty-cleaving",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Mimetic",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/mimetic",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Neutralizing",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/neutralizing",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Ominous",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/ominous",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Planar",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/planar",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Reliable",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/reliable",
+    "Cost": 0,
+    "Types": [
+      "Ranged"
+    ]
+  },
+  {
+    "Ability": "Returning",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/returning",
+    "Cost": 0,
+    "Types": [
+      "Ranged"
+    ]
+  },
+  {
+    "Ability": "Seeking",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/seeking",
+    "Cost": 0,
+    "Types": [
+      "Ranged",
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Quenching",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/quenching",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Seaborn",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/seaborn",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Shock",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/shock",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Spell storing",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/spell-storing",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Thawing",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/thawing",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Throwing",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/throwing",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Thundering",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/thundering",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Unaligned",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/unaligned",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Valiant",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/valiant",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Vicious",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/vicious",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Advancing",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/advancing",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Anarchic",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/anarchic",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Anchoring",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/anchoring",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged"
+    ]
+  },
+  {
+    "Ability": "Axiomatic",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/axiomatic",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Corrosive burst",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/corrosive-burst",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Designating, lesser",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/designating-lesser",
+    "Cost": 0,
+    "Types": [
+      "Ranged",
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Endless ammunition",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/endless-ammunition",
+    "Cost": 0,
+    "Types": [
+      "Ranged"
+    ]
+  },
+  {
+    "Ability": "Defiant",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/defiant",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Dispelling burst",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/dispelling-burst",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Disruption",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/disruption",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Runeforged",
+    "EnhancementBonus": 2,
+    "Link": "https://aonprd.com/MagicWeaponsDisplay.aspx?ItemName=Runeforged",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged"
+    ]
+  },
+  {
+    "Ability": "Flaming burst",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/flaming-burst",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Furyborn",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/furyborn",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Glorious",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/glorious",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Holy",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/holy",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Icy burst",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/icy-burst",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Igniting",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/igniting",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Impact",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/impact",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Invigorating",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/invigorating",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Ki intensifying",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/ki-intensifying",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Lifesurge",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/lifesurge",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Negating",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/negating",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Phase locking",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/phase-locking",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Planestriking",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Shocking burst",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/shocking-burst",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Stalking",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/stalking",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged"
+    ]
+  },
+  {
+    "Ability": "Unholy",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/unholy",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Wounding",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/wounding",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Lucky, greater",
+    "EnhancementBonus": 3,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/lucky-greater",
+    "Cost": 0,
+    "Types": [
+      "Ranged"
+    ]
+  },
+  {
+    "Ability": "Reliable, greater",
+    "EnhancementBonus": 3,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/reliable-greater",
+    "Cost": 0,
+    "Types": [
+      "Ranged"
+    ]
+  },
+  {
+    "Ability": "Nullifying",
+    "EnhancementBonus": 3,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/nullifying",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Repositioning",
+    "EnhancementBonus": 3,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/repositioning",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Speed",
+    "EnhancementBonus": 3,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/speed",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged"
+    ]
+  },
+  {
+    "Ability": "Spell stealing",
+    "EnhancementBonus": 3,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/spell-stealing",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Brilliant energy",
+    "EnhancementBonus": 4,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/brilliant-energy",
+    "Cost": 0,
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Designating, greater",
+    "EnhancementBonus": 4,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/designating-greater",
+    "Cost": 0,
+    "Types": [
+      "Ranged",
+      "Ammunition"
+    ]
+  },
+  {
+    "Ability": "Nimble shot",
+    "EnhancementBonus": 4,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/nimble-shot",
+    "Cost": 0,
+    "Types": [
+      "Ranged"
+    ]
+  },
+  {
+    "Ability": "Second chance",
+    "EnhancementBonus": 4,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/second-chance",
+    "Cost": 0,
+    "Types": [
+      "Ranged"
+    ]
+  },
+  {
+    "Ability": "Dancing",
+    "EnhancementBonus": 4,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/dancing",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Vorpal",
+    "EnhancementBonus": 5,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/vorpal",
+    "Cost": 0,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Transformative",
+    "EnhancementBonus": 5,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/transformative",
+    "Cost": 10000,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Dueling",
+    "EnhancementBonus": 5,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-weapons/magic-weapon-special-abilities/dueling",
+    "Cost": 14000,
+    "Types": [
+      "Melee"
+    ]
+  },
+  {
+    "Ability": "Benevolent",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/benevolent",
+    "Cost": 2000,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Billowing",
+    "EnhancementBonus": 1,
+    "Link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Billowing",
+    "Cost": 0,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Cocooning",
+    "EnhancementBonus": 1,
+    "Link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Cocooning",
+    "Cost": 0,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Poison-resistant",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/poison-resistant",
+    "Cost": 2250,
+    "Types": [
+      "Armor",
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Arrow catching",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/arrow-catching",
+    "Cost": 0,
+    "Types": [
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Balanced",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/balanced",
+    "Cost": 0,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Bashing",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/bashing",
+    "Cost": 0,
+    "Types": [
+      "shield"
+    ]
+  },
+  {
+    "Ability": "Bitter",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/bitter",
+    "Cost": 0,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Blinding",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/blinging",
+    "Cost": 0,
+    "Types": [
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Bolstering",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/bolstering",
+    "Cost": 0,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Champion",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/champion",
+    "Cost": 0,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Clangerous",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/clangerous",
+    "Cost": 0,
+    "Types": [
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Dastard",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/dastard",
+    "Cost": 0,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Deathless",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/deathless",
+    "Cost": 0,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Defiant",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/defiant",
+    "Cost": 0,
+    "Types": [
+      "Armor",
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Fortification (light)",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/fortification",
+    "Cost": 0,
+    "Types": [
+      "Armor",
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Grinding",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/grinding",
+    "Cost": 0,
+    "Types": [
+      "Armor",
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Impervious",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/impervious",
+    "Cost": 0,
+    "Types": [
+      "Armor",
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Mirrored",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/mirrored",
+    "Cost": 0,
+    "Types": [
+      "Armor",
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Spell storing",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/spell-storing",
+    "Cost": 0,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Stanching",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/stanching",
+    "Cost": 0,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Warding",
+    "EnhancementBonus": 1,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/warding",
+    "Cost": 0,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Glamered",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/glamered",
+    "Cost": 2700,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Jousting",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/jousting",
+    "Cost": 3750,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Shadow",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/shadow",
+    "Cost": 3750,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Slick",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/slick",
+    "Cost": 3750,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Expeditious",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/expeditious",
+    "Cost": 4000,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Creeping",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/creeping",
+    "Cost": 5000,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Rallying",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/rallying",
+    "Cost": 5000,
+    "Types": [
+      "Armor",
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Wyrmsbreath",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/wyrmsbreath",
+    "Cost": 5000,
+    "Types": [
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Animated",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/animated",
+    "Cost": 0,
+    "Types": [
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Arrow deflection",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/arrow-deflection",
+    "Cost": 0,
+    "Types": [
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Merging",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/merging",
+    "Cost": 0,
+    "Types": [
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Spell Resistance (13)",
+    "EnhancementBonus": 2,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/spell-resistance",
+    "Cost": 0,
+    "Types": [
+      "Armor",
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Adhesive",
+    "EnhancementBonus": 3,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/adhesive",
+    "Cost": 7000,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Cotraveling",
+    "EnhancementBonus": 3,
+    "Link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Cotraveling",
+    "Cost": 0,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Brawling",
+    "EnhancementBonus": 3,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/brawling",
+    "Cost": 0,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Hosteling",
+    "EnhancementBonus": 3,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/hosteling",
+    "Cost": 7500,
+    "Types": [
+      "Armor",
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Radiant",
+    "EnhancementBonus": 3,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/radiant",
+    "Cost": 7500,
+    "Types": [
+      "Armor",
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Delving",
+    "EnhancementBonus": 3,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/delving",
+    "Cost": 10000,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Putrid",
+    "EnhancementBonus": 3,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/putrid",
+    "Cost": 10000,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Fortification (moderate)",
+    "EnhancementBonus": 3,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/fortification",
+    "Cost": 0,
+    "Types": [
+      "Armor",
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Ghost touch",
+    "EnhancementBonus": 3,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/Ghost-touch",
+    "Cost": 0,
+    "Types": [
+      "Armor",
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Invulnerability",
+    "EnhancementBonus": 3,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/invulnerability",
+    "Cost": 0,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Shadow blending",
+    "EnhancementBonus": 3,
+    "Link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Shadow%20Blending",
+    "Cost": 0,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Spell resistance (15)",
+    "EnhancementBonus": 3,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/spell-resistance",
+    "Cost": 0,
+    "Types": [
+      "Armor",
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Titanic",
+    "EnhancementBonus": 3,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/titanic",
+    "Cost": 0,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Wild",
+    "EnhancementBonus": 3,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/wild",
+    "Cost": 0,
+    "Types": [
+      "Armor",
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Harmonizing",
+    "EnhancementBonus": 4,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/harmonizing",
+    "Cost": 15000,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Improved Shadow",
+    "EnhancementBonus": 4,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/shadow-improved",
+    "Cost": 15000,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Improved Slick",
+    "EnhancementBonus": 4,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/slick-improved",
+    "Cost": 15000,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Energy Resistance",
+    "EnhancementBonus": 4,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/energy-resistance",
+    "Cost": 18000,
+    "Types": [
+      "Armor",
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Martyring",
+    "EnhancementBonus": 4,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/martyring",
+    "Cost": 18000,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Spell resistance (17)",
+    "EnhancementBonus": 4,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/spell-resistance",
+    "Cost": 0,
+    "Types": [
+      "Armor",
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Righteous",
+    "EnhancementBonus": 5,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/righteous",
+    "Cost": 27000,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Unbound",
+    "EnhancementBonus": 5,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/unbound",
+    "Cost": 27000,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Unrighteous",
+    "EnhancementBonus": 5,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/unrighteous",
+    "Cost": 27000,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Vigilant",
+    "EnhancementBonus": 5,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/vigilant",
+    "Cost": 27000,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Determination",
+    "EnhancementBonus": 5,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/determination",
+    "Cost": 27000,
+    "Types": [
+      "Armor",
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Greater Shadow",
+    "EnhancementBonus": 5,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/shadow-greater",
+    "Cost": 33750,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Greater Slick",
+    "EnhancementBonus": 5,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/slick-greater",
+    "Cost": 33750,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Improved Energy Resistance",
+    "EnhancementBonus": 5,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/energy-resistance-improved",
+    "Cost": 42000,
+    "Types": [
+      "Armor",
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Etherealness",
+    "EnhancementBonus": 5,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/etherealness",
+    "Cost": 49000,
+    "Types": [
+      "Armor"
+    ]
+  },
+  {
+    "Ability": "Undead controlling",
+    "EnhancementBonus": 5,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/undead-controlling",
+    "Cost": 49000,
+    "Types": [
+      "Armor",
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Greater energy resistance",
+    "EnhancementBonus": 5,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/energy-resistance-greater",
+    "Cost": 66000,
+    "Types": [
+      "Armor",
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Fortification (heavy)",
+    "EnhancementBonus": 5,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/fortification",
+    "Cost": 0,
+    "Types": [
+      "Armor",
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Reflecting",
+    "EnhancementBonus": 5,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/reflecting",
+    "Cost": 0,
+    "Types": [
+      "Shield"
+    ]
+  },
+  {
+    "Ability": "Spell resistance (19)",
+    "EnhancementBonus": 5,
+    "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/spell-resistance",
+    "Cost": 0,
+    "Types": [
+      "Armor",
+      "Shield"
+    ]
+  }
+]
