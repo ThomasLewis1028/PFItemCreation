@@ -8,6 +8,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PFICTests", "PFICTests\PFIC
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PFICWebUI", "PFICWebUI\PFICWebUI.csproj", "{3BA1B750-5989-494B-8FBE-BBB2ECEAC8CC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{48D85787-EE6A-42CB-826A-3214C5122EF5} = {48D85787-EE6A-42CB-826A-3214C5122EF5}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

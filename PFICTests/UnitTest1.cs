@@ -54,7 +54,7 @@ public class UnitTest1
         Item anyaLongsword = new Item()
         {
             BaseItem = "Cold Iron Longsword",
-            BaseValue = 2030,
+            BaseValue = 2330,
             EnhancementBonus = 1,
             SpecialAbilitiesList = new List<SpecialAbilities>()
             {
@@ -70,7 +70,7 @@ public class UnitTest1
         Assert.AreEqual("Adaptive, Darkwood Composite Longbow +1", marinStartingBow.Name);
         Assert.AreEqual(163430 , marinEndgameBow.ItemValue);
         Assert.AreEqual(9395 , marinShortbow.ItemValue);
-        Assert.AreEqual(100030 , anyaLongsword.ItemValue);
+        Assert.AreEqual(100330 , anyaLongsword.ItemValue);
     }
     
     [TestMethod]
