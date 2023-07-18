@@ -929,7 +929,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/benevolent",
     "Cost": 2000,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -938,7 +940,9 @@
     "Link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Billowing",
     "Cost": 0,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -947,7 +951,9 @@
     "Link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Cocooning",
     "Cost": 0,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -956,7 +962,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/poison-resistant",
     "Cost": 2250,
     "Types": [
-      "Armor",
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
       "Shield"
     ]
   },
@@ -975,7 +983,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/balanced",
     "Cost": 0,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -993,7 +1003,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/bitter",
     "Cost": 0,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1011,7 +1023,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/bolstering",
     "Cost": 0,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1020,7 +1034,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/champion",
     "Cost": 0,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1038,7 +1054,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/dastard",
     "Cost": 0,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1047,7 +1065,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/deathless",
     "Cost": 0,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1056,7 +1076,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/defiant",
     "Cost": 0,
     "Types": [
-      "Armor",
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
       "Shield"
     ]
   },
@@ -1066,7 +1088,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/fortification",
     "Cost": 0,
     "Types": [
-      "Armor",
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
       "Shield"
     ]
   },
@@ -1076,7 +1100,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/grinding",
     "Cost": 0,
     "Types": [
-      "Armor",
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
       "Shield"
     ]
   },
@@ -1086,7 +1112,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/impervious",
     "Cost": 0,
     "Types": [
-      "Armor",
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
       "Shield"
     ]
   },
@@ -1096,7 +1124,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/mirrored",
     "Cost": 0,
     "Types": [
-      "Armor",
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
       "Shield"
     ]
   },
@@ -1106,7 +1136,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/spell-storing",
     "Cost": 0,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1115,7 +1147,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/stanching",
     "Cost": 0,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1124,7 +1158,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/warding",
     "Cost": 0,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1133,7 +1169,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/glamered",
     "Cost": 2700,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1142,7 +1180,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/jousting",
     "Cost": 3750,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1151,7 +1191,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/shadow",
     "Cost": 3750,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1160,7 +1202,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/slick",
     "Cost": 3750,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1169,7 +1213,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/expeditious",
     "Cost": 4000,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1178,7 +1224,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/creeping",
     "Cost": 5000,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1187,7 +1235,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/rallying",
     "Cost": 5000,
     "Types": [
-      "Armor",
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
       "Shield"
     ]
   },
@@ -1233,7 +1283,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/spell-resistance",
     "Cost": 0,
     "Types": [
-      "Armor",
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
       "Shield"
     ]
   },
@@ -1243,7 +1295,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/adhesive",
     "Cost": 7000,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1252,7 +1306,9 @@
     "Link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Cotraveling",
     "Cost": 0,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1261,7 +1317,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/brawling",
     "Cost": 0,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1270,7 +1328,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/hosteling",
     "Cost": 7500,
     "Types": [
-      "Armor",
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
       "Shield"
     ]
   },
@@ -1280,7 +1340,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/radiant",
     "Cost": 7500,
     "Types": [
-      "Armor",
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
       "Shield"
     ]
   },
@@ -1290,7 +1352,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/delving",
     "Cost": 10000,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1299,7 +1363,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/putrid",
     "Cost": 10000,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1308,7 +1374,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/fortification",
     "Cost": 0,
     "Types": [
-      "Armor",
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
       "Shield"
     ]
   },
@@ -1318,7 +1386,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/Ghost-touch",
     "Cost": 0,
     "Types": [
-      "Armor",
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
       "Shield"
     ]
   },
@@ -1328,7 +1398,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/invulnerability",
     "Cost": 0,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1337,7 +1409,9 @@
     "Link": "https://aonprd.com/MagicArmorDisplay.aspx?ItemName=Shadow%20Blending",
     "Cost": 0,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1346,7 +1420,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/spell-resistance",
     "Cost": 0,
     "Types": [
-      "Armor",
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
       "Shield"
     ]
   },
@@ -1356,7 +1432,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/titanic",
     "Cost": 0,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1365,7 +1443,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/wild",
     "Cost": 0,
     "Types": [
-      "Armor",
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
       "Shield"
     ]
   },
@@ -1375,7 +1455,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/harmonizing",
     "Cost": 15000,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1384,7 +1466,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/shadow-improved",
     "Cost": 15000,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1393,7 +1477,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/slick-improved",
     "Cost": 15000,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1402,7 +1488,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/energy-resistance",
     "Cost": 18000,
     "Types": [
-      "Armor",
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
       "Shield"
     ]
   },
@@ -1412,7 +1500,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/martyring",
     "Cost": 18000,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1421,7 +1511,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/spell-resistance",
     "Cost": 0,
     "Types": [
-      "Armor",
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
       "Shield"
     ]
   },
@@ -1431,7 +1523,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/righteous",
     "Cost": 27000,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1440,7 +1534,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/unbound",
     "Cost": 27000,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1449,7 +1545,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/unrighteous",
     "Cost": 27000,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1458,7 +1556,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/vigilant",
     "Cost": 27000,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1467,7 +1567,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/determination",
     "Cost": 27000,
     "Types": [
-      "Armor",
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
       "Shield"
     ]
   },
@@ -1477,7 +1579,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/shadow-greater",
     "Cost": 33750,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1486,7 +1590,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/slick-greater",
     "Cost": 33750,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1495,7 +1601,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/energy-resistance-improved",
     "Cost": 42000,
     "Types": [
-      "Armor",
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
       "Shield"
     ]
   },
@@ -1505,7 +1613,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/etherealness",
     "Cost": 49000,
     "Types": [
-      "Armor"
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
     ]
   },
   {
@@ -1514,7 +1624,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/undead-controlling",
     "Cost": 49000,
     "Types": [
-      "Armor",
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
       "Shield"
     ]
   },
@@ -1524,7 +1636,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/energy-resistance-greater",
     "Cost": 66000,
     "Types": [
-      "Armor",
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
       "Shield"
     ]
   },
@@ -1534,7 +1648,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/fortification",
     "Cost": 0,
     "Types": [
-      "Armor",
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
       "Shield"
     ]
   },
@@ -1553,7 +1669,9 @@
     "Link": "https://www.d20pfsrd.com/magic-items/magic-armor/magic-armor-and-shield-special-abilities/spell-resistance",
     "Cost": 0,
     "Types": [
-      "Armor",
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
       "Shield"
     ]
   }

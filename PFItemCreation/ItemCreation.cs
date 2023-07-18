@@ -13,17 +13,20 @@ static class Globals
 public class ItemCreation
 {
     private static readonly string? LocalPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-    private static readonly string _dataPath = LocalPath + "\\Data\\";
-    private static readonly string _specialAbilitiesFile = "specialAbilities.json";
-    private static readonly string _tablesFile = "tables.json";
+    private static readonly string DataPath = LocalPath + "\\Data\\";
+    private const string SpecialAbilitiesFile = "specialAbilities.json";
+    private const string SpecialMaterialsFile = "specialMaterials.json";
+    private const string TablesFile = "tables.json";
 
-    public readonly List<SpecialAbilities> SpecialAbilities;
+    public readonly List<SpecialAbility> SpecialAbilities;
+    public readonly List<SpecialMaterial> SpecialMaterials;
 
 
     public ItemCreation()
     {
-        Globals.Tables = LoadData<Tables>(_tablesFile);
-        SpecialAbilities = LoadArrayData<List<SpecialAbilities>>(_specialAbilitiesFile);
+        Globals.Tables = LoadData<Tables>(TablesFile);
+        SpecialAbilities = LoadArrayData<List<SpecialAbility>>(SpecialAbilitiesFile);
+        SpecialMaterials = LoadArrayData<List<SpecialMaterial>>(SpecialMaterialsFile);
     }
 
     /// <summary>
@@ -34,7 +37,7 @@ public class ItemCreation
     /// <returns></returns>
     private T LoadArrayData<T>(String path)
     {
-        path = _dataPath + path;
+        path = DataPath + path;
         var data =
             JArray.Parse(
                 File.ReadAllText(path));
@@ -50,7 +53,7 @@ public class ItemCreation
     /// <returns></returns>
     private T LoadData<T>(String path)
     {
-        path = _dataPath + path;
+        path = DataPath + path;
         var data =
             JObject.Parse(
                 File.ReadAllText(path));

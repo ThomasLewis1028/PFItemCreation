@@ -1,6 +1,6 @@
 ﻿namespace PFItemCreation.Models;
 
-public class SpecialAbilities
+public class SpecialAbility
 {
     /// <summary>
     /// The name of the ability
