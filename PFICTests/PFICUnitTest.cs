@@ -4,7 +4,7 @@ using PFItemCreation.Models;
 namespace PFICTests;
 
 [TestClass]
-public class UnitTest1
+public class PFICUnitTest
 {
     [TestMethod]
     public void TestWeaponCreation()
@@ -88,6 +88,11 @@ public class UnitTest1
         Assert.AreEqual("Runeforged, Holy, Flaming burst, Cold Iron Large Longsword +1", anyaLongsword.Name);
     }
 
+}
+
+[TestClass]
+public class ArmorTest
+{
     [TestMethod]
     public void TestArmorCreation()
     {
@@ -124,4 +129,5 @@ public class UnitTest1
         Assert.AreEqual(48150, marinOPBreastplate.ItemValue);
         Assert.AreEqual("Shadow, Improved Shadow, Mithral Agile Breastplate +5", marinOPBreastplate.Name);
     }
+    
 }
