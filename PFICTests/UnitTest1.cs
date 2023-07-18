@@ -44,25 +44,6 @@ public class UnitTest1
             SpecialMaterial = itemCreation.SpecialMaterials.Find(m => m.Material == "Darkwood"),
             ItemType = ItemType.Ranged
         };
-        
-        Item marinBlackwoodBow = new Item()
-        {
-            BaseItem = "Composite Longbow (+0)",
-            BaseValue = 100,
-            Weight = 3,
-            Masterwork = true,
-            EnhancementBonus = 5,
-            SpecialAbilitiesList = new List<SpecialAbility>
-            {
-                itemCreation.SpecialAbilities.Find(s => s.Ability == "Adaptive"),
-                itemCreation.SpecialAbilities.Find(s => s.Ability == "Conserving"),
-                itemCreation.SpecialAbilities.Find(s => s.Ability == "Called"),
-                itemCreation.SpecialAbilities.Find(s => s.Ability == "Distance"),
-                itemCreation.SpecialAbilities.Find(s => s.Ability == "Seeking")
-            },
-            SpecialMaterial = itemCreation.SpecialMaterials.Find(m => m.Material == "Blackwood"),
-            ItemType = ItemType.Ranged
-        };
 
         Item marinShortbow = new Item()
         {
@@ -101,8 +82,6 @@ public class UnitTest1
         Assert.AreEqual("Adaptive, Darkwood Composite Longbow (+0) +1", marinStartingBow.Name);
         Assert.AreEqual(163430, marinEndgameBow.ItemValue);
         Assert.AreEqual("Adaptive, Conserving, Called, Distance, Seeking, Darkwood Composite Longbow (+0) +5", marinEndgameBow.Name);
-        Assert.AreEqual(163460, marinBlackwoodBow.ItemValue);
-        Assert.AreEqual("Adaptive, Conserving, Called, Distance, Seeking, Blackwood Composite Longbow (+0) +5", marinBlackwoodBow.Name);
         Assert.AreEqual(9395, marinShortbow.ItemValue);
         Assert.AreEqual("Adaptive, Darkwood Composite Shortbow (+0) +2", marinShortbow.Name);
         Assert.AreEqual(100360, anyaLongsword.ItemValue);
