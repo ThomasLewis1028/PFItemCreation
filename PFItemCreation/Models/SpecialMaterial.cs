@@ -14,6 +14,8 @@ public class SpecialMaterial
     public List<(ItemType, Modifier, ModBasis, Int32)> ValueTables { get; set; }
     
     public (Modifier, ModScale, Int32) MagicIncrease { get; set; }
+    
+    public Boolean Masterwork { get; set; }
 }
 
 [JsonConverter(typeof(StringEnumConverter))]
@@ -39,5 +41,6 @@ public enum ModScale
     First,
     All
 }
+
 
 

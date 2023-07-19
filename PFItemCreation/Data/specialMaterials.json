@@ -53,7 +53,7 @@
         "Item3": "All",
         "Item4": 60
       }
-    ]
+    ],"Masterwork": true
   },
   {
     "Material": "Angelskin",
@@ -74,7 +74,7 @@
         "Item3": "All",
         "Item4": 2000
       }
-    ]
+    ],"Masterwork": true
   },
   {
     "Material": "Aszite",
@@ -102,7 +102,7 @@
         "Item3": "All",
         "Item4": 1000
       }
-    ]
+    ],"Masterwork": false
   },
   {
     "Material": "Blackwood",
@@ -158,7 +158,7 @@
         "Item3": "Weight",
         "Item4": 20
       }
-    ]
+    ],"Masterwork": true
   },
   {
     "Material": "Blood Crystal",
@@ -275,7 +275,8 @@
         "Item3": "All",
         "Item4": 10
       }
-    ]
+    ],
+    "Masterwork": true
   },
   {
     "Material": "Darkleaf Cloth",
@@ -310,7 +311,8 @@
         "Item3": "Weight",
         "Item4": 375
       }
-    ]
+    ],
+    "Masterwork": true
   },
   {
     "Material": "Darkwood",
@@ -365,6 +367,610 @@
         "Item2": "Add",
         "Item3": "Weight",
         "Item4": 10
+      }
+    ],
+    "Masterwork": true
+  },
+  {
+    "Material": "Druchite",
+    "Types": [
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
+      "Shield",
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "LightArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 1000
+      },
+      {
+        "Item1": "MediumArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 1500
+      },
+      {
+        "Item1": "HeavyArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 2000
+      },
+      {
+        "Item1": "Shield",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 1000
+      },
+      {
+        "Item1": "Melee",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 1200
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 1200
+      },
+      {
+        "Item1": "Ammunition",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 12
+      }
+    ]
+  },
+  {
+    "Material": "Eel Hide",
+    "Types": [
+      "LightArmor",
+      "MediumArmor"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "LightArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 1200
+      },
+      {
+        "Item1": "MediumArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 1800
+      }
+    ],
+    "Masterwork": true
+  },
+  {
+    "Material": "Elysian Bronze",
+    "Types": [
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
+      "Shield",
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "LightArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 1000
+      },
+      {
+        "Item1": "MediumArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 2000
+      },
+      {
+        "Item1": "HeavyArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 3000
+      },
+      {
+        "Item1": "Shield",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 1000
+      },
+      {
+        "Item1": "Melee",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 1000
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 1000
+      },
+      {
+        "Item1": "Ammunition",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 20
+      }
+    ],
+    "Masterwork": true
+  },
+  {
+    "Material": "Fire-Forged Steel",
+    "Types": [
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
+      "Shield",
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "LightArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 1000
+      },
+      {
+        "Item1": "MediumArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 2500
+      },
+      {
+        "Item1": "HeavyArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 3000
+      },
+      {
+        "Item1": "Shield",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 1000
+      },
+      {
+        "Item1": "Melee",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 600
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 600
+      },
+      {
+        "Item1": "Ammunition",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 15
+      }
+    ],
+    "Masterwork": true
+  },
+  {
+    "Material": "Frost-Forged Steel",
+    "Types": [
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
+      "Shield",
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "LightArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 1000
+      },
+      {
+        "Item1": "MediumArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 2500
+      },
+      {
+        "Item1": "HeavyArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 3000
+      },
+      {
+        "Item1": "Shield",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 1000
+      },
+      {
+        "Item1": "Melee",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 600
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 600
+      },
+      {
+        "Item1": "Ammunition",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 15
+      }
+    ],
+    "Masterwork": true
+  },
+  {
+    "Material": "Glaucite",
+    "Types": [
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
+      "Shield",
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "LightArmor",
+        "Item2": "Multiply",
+        "Item3": "All",
+        "Item4": 3
+      },
+      {
+        "Item1": "MediumArmor",
+        "Item2": "Multiply",
+        "Item3": "All",
+        "Item4": 3
+      },
+      {
+        "Item1": "HeavyArmor",
+        "Item2": "Multiply",
+        "Item3": "All",
+        "Item4": 3
+      },
+      {
+        "Item1": "Shield",
+        "Item2": "Multiply",
+        "Item3": "All",
+        "Item4": 3
+      },
+      {
+        "Item1": "Melee",
+        "Item2": "Multiply",
+        "Item3": "All",
+        "Item4": 3
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Multiply",
+        "Item3": "All",
+        "Item4": 3
+      },
+      {
+        "Item1": "Ammunition",
+        "Item2": "Multiply",
+        "Item3": "All",
+        "Item4": 3
+      }
+    ],
+    "Masterwork": true
+  },
+  {
+    "Material": "Greenwood",
+    "Types": [
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
+      "Shield",
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "LightArmor",
+        "Item2": "Add",
+        "Item3": "Weight",
+        "Item4": 50
+      },
+      {
+        "Item1": "MediumArmor",
+        "Item2": "Add",
+        "Item3": "Weight",
+        "Item4": 50
+      },
+      {
+        "Item1": "HeavyArmor",
+        "Item2": "Add",
+        "Item3": "Weight",
+        "Item4": 50
+      },
+      {
+        "Item1": "Shield",
+        "Item2": "Add",
+        "Item3": "Weight",
+        "Item4": 50
+      },
+      {
+        "Item1": "Melee",
+        "Item2": "Add",
+        "Item3": "Weight",
+        "Item4": 50
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Add",
+        "Item3": "Weight",
+        "Item4": 50
+      },
+      {
+        "Item1": "Ammunition",
+        "Item2": "Add",
+        "Item3": "Weight",
+        "Item4": 50
+      }
+    ],
+    "Masterwork": true
+  },
+  {
+    "Material": "Griffon Mane",
+    "Types": [
+      "LightArmor",
+      "Other"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "LightArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 200
+      },
+      {
+        "Item1": "Other",
+        "Item2": "Add",
+        "Item3": "Weight",
+        "Item4": 50
+      }
+    ]
+  },
+  {
+    "Material": "Heatstone Plating",
+    "Types": [
+      "LightArmor",
+      "MediumArmor"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "LightArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 800
+      },
+      {
+        "Item1": "MediumArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 1000
+      }
+    ]
+  },
+  {
+    "Material": "Horacalcum",
+    "Types": [
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
+      "Shield",
+      "Melee",
+      "Ranged"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "LightArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 10000
+      },
+      {
+        "Item1": "MediumArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 30000
+      },
+      {
+        "Item1": "HeavyArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 60000
+      },
+      {
+        "Item1": "Shield",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 10000
+      },
+      {
+        "Item1": "Melee",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 6000
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 6000
+      }
+    ],
+    "Masterwork": true
+  },
+  {
+    "Material": "Inubrix",
+    "Types": [
+      "Melee",
+      "Ranged"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "Melee",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 5000
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 5000
+      }
+    ]
+  },
+  {
+    "Material": "Lazurite",
+    "Types": [
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
+      "Shield"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "LightArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 1500
+      },
+      {
+        "Item1": "MediumArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 2500
+      },
+      {
+        "Item1": "HeavyArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 3500
+      },
+      {
+        "Item1": "Shield",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 1500
+      }
+    ]
+  },
+  {
+    "Material": "Liquid Glass",
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Other"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "Melee",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 800
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 800
+      },
+      {
+        "Item1": "Other",
+        "Item2": "Add",
+        "Item3": "Weight",
+        "Item4": 250
+      }
+    ],
+    "Masterwork": true
+  },
+  {
+    "Material": "Living Steel",
+    "Types": [
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
+      "Shield",
+      "Melee",
+      "Ranged",
+      "Ammunition",
+      "Other"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "LightArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 500
+      },
+      {
+        "Item1": "MediumArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 1000
+      },
+      {
+        "Item1": "HeavyArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 1500
+      },
+      {
+        "Item1": "Shield",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 100
+      },
+      {
+        "Item1": "Melee",
+        "Item2": "Add",
+        "Item3": "Weight",
+        "Item4": 500
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 500
+      },
+      {
+        "Item1": "Ammunition",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 10
+      },
+      {
+        "Item1": "Other",
+        "Item2": "Add",
+        "Item3": "Weight",
+        "Item4": 250
       }
     ]
   },
@@ -421,6 +1027,829 @@
         "Item2": "Add",
         "Item3": "Weight",
         "Item4": 500
+      }
+    ],
+    "Masterwork": true
+  },
+  {
+    "Material": "Nexavaran Steel",
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "Melee",
+        "Item2": "Multiply",
+        "Item3": "All",
+        "Item4": 1.5
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Multiply",
+        "Item3": "All",
+        "Item4": 1.5
+      },
+      {
+        "Item1": "Ammunition",
+        "Item2": "Multiply",
+        "Item3": "All",
+        "Item4": 1.5
+      }
+    ],
+    "MagicIncrease": {
+      "Item1": "Add",
+      "Item2": "First",
+      "Item3": 3000
+    }
+  },
+  {
+    "Material": "Noqual",
+    "Types": [
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
+      "Shield",
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "LightArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 4000
+      },
+      {
+        "Item1": "MediumArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 8000
+      },
+      {
+        "Item1": "HeavyArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 12000
+      },
+      {
+        "Item1": "Shield",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 2000
+      },
+      {
+        "Item1": "Melee",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 500
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 500
+      },
+      {
+        "Item1": "Other",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 500
+      }
+    ],
+    "MagicIncrease": {
+      "Item1": "Add",
+      "Item2": "First",
+      "Item3": 5000
+    }
+  },
+  {
+    "Material": "Paueliel",
+    "Types": [
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
+      "Shield",
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "LightArmor",
+        "Item2": "Add",
+        "Item3": "Weight",
+        "Item4": 25
+      },
+      {
+        "Item1": "MediumArmor",
+        "Item2": "Add",
+        "Item3": "Weight",
+        "Item4": 25
+      },
+      {
+        "Item1": "HeavyArmor",
+        "Item2": "Add",
+        "Item3": "Weight",
+        "Item4": 25
+      },
+      {
+        "Item1": "Shield",
+        "Item2": "Add",
+        "Item3": "Weight",
+        "Item4": 25
+      },
+      {
+        "Item1": "Melee",
+        "Item2": "Add",
+        "Item3": "Weight",
+        "Item4": 25
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Add",
+        "Item3": "Weight",
+        "Item4": 25
+      },
+      {
+        "Item1": "Ammunition",
+        "Item2": "Add",
+        "Item3": "Weight",
+        "Item4": 25
+      }
+    ],
+    "Masterwork": true
+  },
+  {
+    "Material": "Pyre Steel",
+    "Types": [
+      "Melee",
+      "Ranged"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "Melee",
+        "Item2": "Multiply",
+        "Item3": "All",
+        "Item4": 2
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Multiply",
+        "Item3": "All",
+        "Item4": 2
+      }
+    ],
+    "Masterwork": true
+  },
+  {
+    "Material": "Siccatite",
+    "Types": [
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
+      "Shield",
+      "Melee",
+      "Ranged"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "LightArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 6000
+      },
+      {
+        "Item1": "MediumArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 6000
+      },
+      {
+        "Item1": "HeavyArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 6000
+      },
+      {
+        "Item1": "Shield",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 6000
+      },
+      {
+        "Item1": "Melee",
+        "Item2": "Add",
+        "Item3": "Weight",
+        "Item4": 1000
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Add",
+        "Item3": "Weight",
+        "Item4": 1000
+      }
+    ]
+  },
+  {
+    "Material": "Silversheen",
+    "Types": [
+      "Melee",
+      "Ranged"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "Melee",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 750
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 705
+      }
+    ],
+    "Masterwork": true
+  },
+  {
+    "Material": "Singing Steel",
+    "Types": [
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
+      "Shield",
+      "Melee",
+      "Ranged",
+      "Other"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "LightArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 750
+      },
+      {
+        "Item1": "MediumArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 9000
+      },
+      {
+        "Item1": "HeavyArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 12000
+      },
+      {
+        "Item1": "Shield",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 7000
+      },
+      {
+        "Item1": "Melee",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 6000
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 6000
+      },
+      {
+        "Item1": "Other",
+        "Item2": "Add",
+        "Item3": "Weight",
+        "Item4": 600
+      }
+    ],
+    "Masterwork": true
+  },
+  {
+    "Material": "Spiresteel",
+    "Types": [
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "LightArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 1000
+      },
+      {
+        "Item1": "MediumArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 2000
+      },
+      {
+        "Item1": "HeavyArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 3000
+      },
+      {
+        "Item1": "Melee",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 2000
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 2000
+      },
+      {
+        "Item1": "Ammunition",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 10
+      }
+    ],
+    "Masterwork": true
+  },
+  {
+    "Material": "Sunsilk",
+    "Types": [
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "LightArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 6000
+      },
+      {
+        "Item1": "MediumArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 6000
+      },
+      {
+        "Item1": "HeavyArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 6000
+      }
+    ]
+  },
+  {
+    "Material": "Sunsilver",
+    "Types": [
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "LightArmor",
+        "Item2": "Add",
+        "Item3": "Weight",
+        "Item4": 25
+      },
+      {
+        "Item1": "MediumArmor",
+        "Item2": "Add",
+        "Item3": "Weight",
+        "Item4": 25
+      },
+      {
+        "Item1": "HeavyArmor",
+        "Item2": "Add",
+        "Item3": "Weight",
+        "Item4": 25
+      },
+      {
+        "Item1": "Melee",
+        "Item2": "Add",
+        "Item3": "Weight",
+        "Item4": 25
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Add",
+        "Item3": "Weight",
+        "Item4": 25
+      },
+      {
+        "Item1": "Ammunition",
+        "Item2": "Add",
+        "Item3": "Weight",
+        "Item4": 25
+      }
+    ],
+    "Masterwork": true
+  },
+  {
+    "Material": "Throneglass",
+    "Types": [
+      "Melee",
+      "Ranged"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "Melee",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 13000
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 13000
+      }
+    ]
+  },
+  {
+    "Material": "Viridium",
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "Melee",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 200
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 200
+      },
+      {
+        "Item1": "Ammunition",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 20
+      }
+    ]
+  },
+  {
+    "Material": "Voidglass",
+    "Types": [
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
+      "Shield",
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "LightArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 1000
+      },
+      {
+        "Item1": "MediumArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 2000
+      },
+      {
+        "Item1": "HeavyArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 4500
+      },
+      {
+        "Item1": "Shield",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 3000
+      },
+      {
+        "Item1": "Melee",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 1000
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 1000
+      }
+    ]
+  },
+  {
+    "Material": "Wyroot",
+    "Types": [
+      "Melee"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "Melee",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 1000
+      }
+    ]
+  },
+  {
+    "Material": "Bone",
+    "Types": [
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "LightArmor",
+        "Item2": "Divide",
+        "Item3": "All",
+        "Item4": 2
+      },
+      {
+        "Item1": "MediumArmor",
+        "Item2": "Divide",
+        "Item3": "All",
+        "Item4": 2
+      },
+      {
+        "Item1": "HeavyArmor",
+        "Item2": "Divide",
+        "Item3": "All",
+        "Item4": 2
+      },
+      {
+        "Item1": "Melee",
+        "Item2": "Divide",
+        "Item3": "All",
+        "Item4": 2
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Divide",
+        "Item3": "All",
+        "Item4": 2
+      },
+      {
+        "Item1": "Ammunition",
+        "Item2": "Divide",
+        "Item3": "All",
+        "Item4": 2
+      }
+    ]
+  },
+  {
+    "Material": "Bronze",
+    "Types": [
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "LightArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 0
+      },
+      {
+        "Item1": "MediumArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 0
+      },
+      {
+        "Item1": "HeavyArmor",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 0
+      },
+      {
+        "Item1": "Melee",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 0
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 0
+      },
+      {
+        "Item1": "Ammunition",
+        "Item2": "Add",
+        "Item3": "All",
+        "Item4": 0
+      }
+    ]
+  },
+  {
+    "Material": "Glass",
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "Melee",
+        "Item2": "Divide",
+        "Item3": "All",
+        "Item4": 2
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Divide",
+        "Item3": "All",
+        "Item4": 2
+      },
+      {
+        "Item1": "Ammunition",
+        "Item2": "Divide",
+        "Item3": "All",
+        "Item4": 2
+      }
+    ]
+  },
+  {
+    "Material": "Gold",
+    "Types": [
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "LightArmor",
+        "Item2": "Multiply",
+        "Item3": "All",
+        "Item4": 10
+      },
+      {
+        "Item1": "MediumArmor",
+        "Item2": "Multiply",
+        "Item3": "All",
+        "Item4": 10
+      },
+      {
+        "Item1": "HeavyArmor",
+        "Item2": "Multiply",
+        "Item3": "All",
+        "Item4": 10
+      },
+      {
+        "Item1": "Melee",
+        "Item2": "Multiply",
+        "Item3": "All",
+        "Item4": 10
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Multiply",
+        "Item3": "All",
+        "Item4": 10
+      },
+      {
+        "Item1": "Ammunition",
+        "Item2": "Multiply",
+        "Item3": "All",
+        "Item4": 10
+      }
+    ]
+  },
+  {
+    "Material": "Gold-Plated",
+    "Types": [
+      "LightArmor",
+      "MediumArmor",
+      "HeavyArmor",
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "LightArmor",
+        "Item2": "Multiply",
+        "Item3": "All",
+        "Item4": 3
+      },
+      {
+        "Item1": "MediumArmor",
+        "Item2": "Multiply",
+        "Item3": "All",
+        "Item4": 3
+      },
+      {
+        "Item1": "HeavyArmor",
+        "Item2": "Multiply",
+        "Item3": "All",
+        "Item4": 3
+      },
+      {
+        "Item1": "Melee",
+        "Item2": "Multiply",
+        "Item3": "All",
+        "Item4": 3
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Multiply",
+        "Item3": "All",
+        "Item4": 3
+      },
+      {
+        "Item1": "Ammunition",
+        "Item2": "Multiply",
+        "Item3": "All",
+        "Item4": 3
+      }
+    ]
+  },
+  {
+    "Material": "Obsidian",
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "Melee",
+        "Item2": "Divide",
+        "Item3": "All",
+        "Item4": 2
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Divide",
+        "Item3": "All",
+        "Item4": 2
+      },
+      {
+        "Item1": "Ammunition",
+        "Item2": "Divide",
+        "Item3": "All",
+        "Item4": 2
+      }
+    ]
+  },
+  {
+    "Material": "Stone",
+    "Types": [
+      "Melee",
+      "Ranged",
+      "Ammunition"
+    ],
+    "ValueTables": [
+      {
+        "Item1": "Melee",
+        "Item2": "Divide",
+        "Item3": "All",
+        "Item4": 4
+      },
+      {
+        "Item1": "Ranged",
+        "Item2": "Divide",
+        "Item3": "All",
+        "Item4": 4
+      },
+      {
+        "Item1": "Ammunition",
+        "Item2": "Divide",
+        "Item3": "All",
+        "Item4": 4
       }
     ]
   }

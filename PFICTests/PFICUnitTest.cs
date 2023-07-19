@@ -87,12 +87,7 @@ public class PFICUnitTest
         Assert.AreEqual(100360, anyaLongsword.ItemValue);
         Assert.AreEqual("Runeforged, Holy, Flaming burst, Cold Iron Large Longsword +1", anyaLongsword.Name);
     }
-
-}
-
-[TestClass]
-public class ArmorTest
-{
+    
     [TestMethod]
     public void TestArmorCreation()
     {
@@ -129,5 +124,4 @@ public class ArmorTest
         Assert.AreEqual(48150, marinOPBreastplate.ItemValue);
         Assert.AreEqual("Shadow, Improved Shadow, Mithral Agile Breastplate +5", marinOPBreastplate.Name);
     }
-    
 }
