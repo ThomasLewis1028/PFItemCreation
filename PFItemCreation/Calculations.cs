@@ -4,20 +4,21 @@ namespace PFItemCreation;
 
 public class Calculations
 {
-    public Int16 CalcEnhBonus(List<SpecialAbility> specialAbilitiesList)
+    public Int16 CalcEnhBonus(Item item)
     {
         Int16 bonus = 0;
 
-        foreach (var ability in specialAbilitiesList)
-            if (ability.Cost == 0)
-                bonus += ability.EnhancementBonus;
+        if(item.SpecialAbilitiesList.Count > 0)
+            foreach (var ability in item.SpecialAbilitiesList)
+                if (ability.Cost == 0)
+                    bonus += ability.EnhancementBonus;
 
         return bonus;
     }
 
-    public Int32 CalcValue(Item item)
+    public Double CalcValue(Item item)
     {
-        Int32 value = item.BaseValue;
+        Double value = item.BaseValue;
 
         if (item.SpecialMaterial != null)
         {
@@ -124,9 +125,10 @@ public class Calculations
             }
         }
 
-        foreach (var ability in item.SpecialAbilitiesList)
-            if (ability.Cost > 0)
-                value += ability.Cost;
+        if(item.SpecialAbilitiesList.Count > 0)
+            foreach (var ability in item.SpecialAbilitiesList)
+                if (ability.Cost > 0)
+                    value += ability.Cost;
 
         switch (item.ItemType)
         {
@@ -153,9 +155,12 @@ public class Calculations
     {
         String itemName = "";
 
-        foreach (var ability in item.SpecialAbilitiesList)
+        if(item.SpecialAbilitiesList.Count > 0)
         {
-            itemName += ability.Ability + ", ";
+            foreach (var ability in item.SpecialAbilitiesList)
+            {
+                itemName += ability.Ability + ", ";
+            }
         }
 
         itemName += item.SpecialMaterial != null

@@ -5,6 +5,10 @@ namespace PFItemCreation.Models;
 
 public class Item
 {
+    public Item()
+    {
+        SpecialAbilitiesList = new List<SpecialAbility>();
+    }
     public String BaseItem { get; set; }
 
     public String Name => new Calculations().CalcName(this);
@@ -24,9 +28,9 @@ public class Item
     public SpecialMaterial SpecialMaterial { get; set; }
 
     public Int16 TotalEnhancementBonus =>
-        (Int16) (new Calculations().CalcEnhBonus(SpecialAbilitiesList) + EnhancementBonus);
+        (Int16) (new Calculations().CalcEnhBonus(this) + EnhancementBonus);
 
-    public Int32 ItemValue => new Calculations().CalcValue(this);
+    public Double ItemValue => new Calculations().CalcValue(this);
 }
 
 [JsonConverter(typeof(StringEnumConverter))]

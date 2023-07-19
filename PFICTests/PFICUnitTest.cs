@@ -1,3 +1,4 @@
+using System.Text;
 using PFItemCreation;
 using PFItemCreation.Models;
 
@@ -80,10 +81,13 @@ public class PFICUnitTest
 
         Assert.AreEqual(3430, marinStartingBow.ItemValue);
         Assert.AreEqual("Adaptive, Darkwood Composite Longbow (+0) +1", marinStartingBow.Name);
+        
         Assert.AreEqual(163430, marinEndgameBow.ItemValue);
         Assert.AreEqual("Adaptive, Conserving, Called, Distance, Seeking, Darkwood Composite Longbow (+0) +5", marinEndgameBow.Name);
+        
         Assert.AreEqual(9395, marinShortbow.ItemValue);
         Assert.AreEqual("Adaptive, Darkwood Composite Shortbow (+0) +2", marinShortbow.Name);
+        
         Assert.AreEqual(100360, anyaLongsword.ItemValue);
         Assert.AreEqual("Runeforged, Holy, Flaming burst, Cold Iron Large Longsword +1", anyaLongsword.Name);
     }
@@ -104,7 +108,7 @@ public class PFICUnitTest
             ItemType = ItemType.MediumArmor
         };
 
-        Item marinOPBreastplate = new Item()
+        Item marinOpBreastplate = new Item()
         {
             BaseItem = "Agile Breastplate",
             BaseValue = 400,
@@ -121,7 +125,39 @@ public class PFICUnitTest
 
         Assert.AreEqual(5400, marinBreastplate.ItemValue);
         Assert.AreEqual("Mithral Agile Breastplate +1", marinBreastplate.Name);
-        Assert.AreEqual(48150, marinOPBreastplate.ItemValue);
-        Assert.AreEqual("Shadow, Improved Shadow, Mithral Agile Breastplate +5", marinOPBreastplate.Name);
+        
+        Assert.AreEqual(48150, marinOpBreastplate.ItemValue);
+        Assert.AreEqual("Shadow, Improved Shadow, Mithral Agile Breastplate +5", marinOpBreastplate.Name);
+    }
+
+    [TestMethod]
+    public void TestRandomItems()
+    {
+        ItemCreation itemCreation = new ItemCreation();
+
+        Item item1 = new Item
+        {
+            BaseItem = "Large Longsword",
+            BaseValue = 30,
+            Weight = 3,
+            SpecialMaterial = itemCreation.SpecialMaterials.Find(m => m.Material == "Bone"),
+            ItemType = ItemType.Melee
+        };
+        
+        Assert.AreEqual(15, item1.ItemValue);
+        Assert.AreEqual("Bone Large Longsword", item1.Name);
+
+        Item item2 = new Item
+        {
+            BaseItem = "Dagger",
+            BaseValue = 2,
+            Weight = 1,
+            EnhancementBonus = 1,
+            SpecialMaterial = itemCreation.SpecialMaterials.Find(m => m.Material == "Nexavaran Steel"),
+            ItemType = ItemType.Melee
+        };
+        
+        Assert.AreEqual(5003, item2.ItemValue);
+        Assert.AreEqual("Nexavaran Steel Dagger +1", item2.Name);
     }
 }

@@ -11,7 +11,7 @@ public class SpecialMaterial
 
     public List<ItemType> Types { get; set; }
 
-    public List<(ItemType, Modifier, ModBasis, Int32)> ValueTables { get; set; }
+    public List<(ItemType, Modifier, ModBasis, Double)> ValueTables { get; set; }
     
     public (Modifier, ModScale, Int32) MagicIncrease { get; set; }
     
