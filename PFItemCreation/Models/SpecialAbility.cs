@@ -15,7 +15,7 @@ public class SpecialAbility
     /// <summary>
     /// PFSRD Link to the ability
     /// </summary>
-    public String Link { get; set; }
+    // public String Link { get; set; }
     
     /// <summary>
     /// The cost of the upgrade if applicable

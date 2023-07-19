@@ -53,7 +53,8 @@
         "Item3": "All",
         "Item4": 60
       }
-    ],"Masterwork": true
+    ],
+    "MwType": "Included"
   },
   {
     "Material": "Angelskin",
@@ -74,7 +75,8 @@
         "Item3": "All",
         "Item4": 2000
       }
-    ],"Masterwork": true
+    ],
+    "MwType": "Included"
   },
   {
     "Material": "Aszite",
@@ -102,7 +104,7 @@
         "Item3": "All",
         "Item4": 1000
       }
-    ],"Masterwork": false
+    ]
   },
   {
     "Material": "Blackwood",
@@ -158,7 +160,8 @@
         "Item3": "Weight",
         "Item4": 20
       }
-    ],"Masterwork": true
+    ],
+    "MwType": "AddIn"
   },
   {
     "Material": "Blood Crystal",
@@ -276,7 +279,7 @@
         "Item4": 10
       }
     ],
-    "Masterwork": true
+    "MwType": "Included"
   },
   {
     "Material": "Darkleaf Cloth",
@@ -312,7 +315,7 @@
         "Item4": 375
       }
     ],
-    "Masterwork": true
+    "MwType": "Included"
   },
   {
     "Material": "Darkwood",
@@ -369,7 +372,7 @@
         "Item4": 10
       }
     ],
-    "Masterwork": true
+    "MwType": "AddIn"
   },
   {
     "Material": "Druchite",
@@ -447,7 +450,7 @@
         "Item4": 1800
       }
     ],
-    "Masterwork": true
+    "MwType": "Included"
   },
   {
     "Material": "Elysian Bronze",
@@ -504,7 +507,7 @@
         "Item4": 20
       }
     ],
-    "Masterwork": true
+    "MwType": "Included"
   },
   {
     "Material": "Fire-Forged Steel",
@@ -561,7 +564,7 @@
         "Item4": 15
       }
     ],
-    "Masterwork": true
+    "MwType": "Included"
   },
   {
     "Material": "Frost-Forged Steel",
@@ -618,7 +621,7 @@
         "Item4": 15
       }
     ],
-    "Masterwork": true
+    "MwType": "Included"
   },
   {
     "Material": "Glaucite",
@@ -675,7 +678,7 @@
         "Item4": 3
       }
     ],
-    "Masterwork": true
+    "MwType": "Included"
   },
   {
     "Material": "Greenwood",
@@ -732,7 +735,7 @@
         "Item4": 50
       }
     ],
-    "Masterwork": true
+    "MwType": "AddIn"
   },
   {
     "Material": "Griffon Mane",
@@ -824,7 +827,7 @@
         "Item4": 6000
       }
     ],
-    "Masterwork": true
+    "MwType": "Included"
   },
   {
     "Material": "Inubrix",
@@ -909,7 +912,7 @@
         "Item4": 250
       }
     ],
-    "Masterwork": true
+    "MwType": "Included"
   },
   {
     "Material": "Living Steel",
@@ -1029,7 +1032,7 @@
         "Item4": 500
       }
     ],
-    "Masterwork": true
+    "MwType": "Included"
   },
   {
     "Material": "Nexavaran Steel",
@@ -1180,7 +1183,7 @@
         "Item4": 25
       }
     ],
-    "Masterwork": true
+    "MwType": "Included"
   },
   {
     "Material": "Pyre Steel",
@@ -1202,7 +1205,7 @@
         "Item4": 2
       }
     ],
-    "Masterwork": true
+    "MwType": "Included"
   },
   {
     "Material": "Siccatite",
@@ -1273,7 +1276,7 @@
         "Item4": 705
       }
     ],
-    "Masterwork": true
+    "MwType": "Included"
   },
   {
     "Material": "Singing Steel",
@@ -1330,7 +1333,7 @@
         "Item4": 600
       }
     ],
-    "Masterwork": true
+    "MwType": "Included"
   },
   {
     "Material": "Spiresteel",
@@ -1380,7 +1383,7 @@
         "Item4": 10
       }
     ],
-    "Masterwork": true
+    "MwType": "Included"
   },
   {
     "Material": "Sunsilk",
@@ -1458,7 +1461,7 @@
         "Item4": 25
       }
     ],
-    "Masterwork": true
+    "MwType": "AddIn"
   },
   {
     "Material": "Throneglass",

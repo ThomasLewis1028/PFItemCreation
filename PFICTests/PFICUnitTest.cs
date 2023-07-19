@@ -17,7 +17,6 @@ public class PFICUnitTest
             BaseItem = "Composite Longbow (+0)",
             BaseValue = 100,
             Weight = 3,
-            Masterwork = true,
             EnhancementBonus = 1,
             SpecialAbilitiesList = new List<SpecialAbility>
             {
@@ -32,7 +31,6 @@ public class PFICUnitTest
             BaseItem = "Composite Longbow (+0)",
             BaseValue = 100,
             Weight = 3,
-            Masterwork = true,
             EnhancementBonus = 5,
             SpecialAbilitiesList = new List<SpecialAbility>
             {
@@ -52,7 +50,6 @@ public class PFICUnitTest
             BaseValue = 75,
             EnhancementBonus = 2,
             Weight = 2,
-            Masterwork = true,
             SpecialAbilitiesList = new List<SpecialAbility>
             {
                 itemCreation.SpecialAbilities.Find(s => s.Ability == "Adaptive")
@@ -89,7 +86,7 @@ public class PFICUnitTest
         Assert.AreEqual("Adaptive, Darkwood Composite Shortbow (+0) +2", marinShortbow.Name);
         
         Assert.AreEqual(100360, anyaLongsword.ItemValue);
-        Assert.AreEqual("Runeforged, Holy, Flaming burst, Cold Iron Large Longsword +1", anyaLongsword.Name);
+        Assert.AreEqual("Masterwork, Runeforged, Holy, Flaming burst, Cold Iron Large Longsword +1", anyaLongsword.Name);
     }
     
     [TestMethod]

@@ -7,7 +7,7 @@ public class SpecialMaterial
 {
     public String Material { get; set; }
 
-    public String Link { get; set; }
+    // public String Link { get; set; }
 
     public List<ItemType> Types { get; set; }
 
@@ -15,7 +15,7 @@ public class SpecialMaterial
     
     public (Modifier, ModScale, Int32) MagicIncrease { get; set; }
     
-    public Boolean Masterwork { get; set; }
+    public MwType MwType { get; set; }
 }
 
 [JsonConverter(typeof(StringEnumConverter))]
@@ -40,6 +40,14 @@ public enum ModScale
 {
     First,
     All
+}
+
+[JsonConverter(typeof(StringEnumConverter))]
+public enum MwType
+{
+    NotIncluded,
+    Included,
+    AddIn
 }
 
 

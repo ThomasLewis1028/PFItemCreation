@@ -4,6 +4,12 @@ namespace PFItemCreation;
 
 public class Calculations
 {
+    /// <summary>
+    /// This function will receive an Item (preferably from within the Item class) and then calculate the enhancement
+    /// bonus based on how many of the special abilities are added.
+    /// </summary>
+    /// <param name="item"></param>
+    /// <returns>Int16 enhancement bonus value</returns>
     public Int16 CalcEnhBonus(Item item)
     {
         Int16 bonus = 0;
@@ -16,6 +22,12 @@ public class Calculations
         return bonus;
     }
 
+    /// <summary>
+    /// This function will receive an Item (preferably from within the Item class) and then calculate the total value
+    /// based on how many of the special abilities and or special materials are added are added.
+    /// </summary>
+    /// <param name="item"></param>
+    /// <returns>Double of the item value calculated from the abilities and materials</returns>
     public Double CalcValue(Item item)
     {
         Double value = item.BaseValue;
@@ -138,22 +150,31 @@ public class Calculations
             case ItemType.HeavyArmor:
             case ItemType.Shield:
                 value += Globals.Tables.ArmorTable[item.TotalEnhancementBonus];
-                value += item.Masterwork ? 150 : 0;
+                value += item.Masterwork || item.SpecialMaterial.MwType == MwType.AddIn ? 150 : 0;
                 break;
             case ItemType.Ammunition:
             case ItemType.Ranged:
             case ItemType.Melee:
                 value += Globals.Tables.WeaponTable[item.TotalEnhancementBonus];
-                value += item.Masterwork ? 300 : 0;
+                value += item.Masterwork || item.SpecialMaterial.MwType == MwType.AddIn ? 300 : 0;
                 break;
         }
 
         return value;
     }
 
+    /// <summary>
+    /// This concatenates the item name with the various materials and abilities to make the full item name that would
+    /// be seen in-game
+    /// </summary>
+    /// <param name="item"></param>
+    /// <returns>String full name of the item</returns>
     public String CalcName(Item item)
     {
         String itemName = "";
+
+        if (item.Masterwork)
+            itemName += "Masterwork, ";
 
         if(item.SpecialAbilitiesList.Count > 0)
         {
