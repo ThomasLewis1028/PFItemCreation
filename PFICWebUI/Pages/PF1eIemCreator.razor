@@ -1,0 +1,51 @@
+﻿@using PFItemCreation
+@using PFItemCreation.Models
+@using System.Text
+@page "/PF1eItemCreator"
+
+<PageTitle>PF1e Item Creator</PageTitle>
+
+<MudText Typo="Typo.h5">PF1e Item Creator</MudText>
+
+<MudGrid>
+    <MudItem xs="12" sm="12">
+        <MudTable Items="@ItemCreation.SpecialAbilities" Hover="true" SortLabel="Sort By">
+            <ToolBarContent>
+                <MudText Typo="Typo.h6">Ability List</MudText>
+                <MudTextField @bind-Value="searchString" Placeholder="Search" Adornment="Adornment.Start" AdornmentIcon="Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
+            </ToolBarContent>
+            <HeaderContent>
+                <MudTh>Ability name</MudTh>
+                <MudTh>Enhancement Bonus</MudTh>
+                <MudTh>Cost</MudTh>
+                <MudTh>Item Types</MudTh>
+            </HeaderContent>
+            <RowTemplate>
+                <MudTd DataLabel="Name">@context.Ability</MudTd>
+                <MudTd DataLabel="Name">@context.EnhancementBonus</MudTd>
+                <MudTd DataLabel="Name">@context.Cost</MudTd>
+                <MudTd DataLabel="Name">@ItemTypeListString(context.Types)</MudTd>
+            </RowTemplate>
+        </MudTable>
+    </MudItem>
+</MudGrid>
+
+
+@code {
+    private ItemCreation ItemCreation = new ItemCreation();
+    private string searchString;
+
+    private string ItemTypeListString(List<ItemType> itemTypes)
+    {
+        StringBuilder sb = new StringBuilder();
+
+        foreach (var itemType in itemTypes)
+        {
+            sb.Append(itemType + ", ");
+        }
+
+        sb.Remove(sb.Length - 2, 2);
+        
+        return sb.ToString();
+    }
+}

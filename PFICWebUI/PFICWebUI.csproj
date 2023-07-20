@@ -10,4 +10,10 @@
       <ProjectReference Include="..\PFItemCreation\PFItemCreation.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="MudBlazor" Version="6.7.0" />
+      <PackageReference Include="MudBlazor.Markdown" Version="0.1.1" />
+      <PackageReference Include="MudBlazor.ThemeManager" Version="1.0.8" />
+    </ItemGroup>
+
 </Project>
