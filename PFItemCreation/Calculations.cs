@@ -150,13 +150,13 @@ public class Calculations
             case ItemType.HeavyArmor:
             case ItemType.Shield:
                 value += Globals.Tables.ArmorTable[item.TotalEnhancementBonus];
-                value += item.Masterwork || item.SpecialMaterial.MwType == MwType.AddIn ? 150 : 0;
+                value += item.SpecialMaterial != null && (item.Masterwork || item.SpecialMaterial.MwType == MwType.AddIn) ? 150 : 0;
                 break;
             case ItemType.Ammunition:
             case ItemType.Ranged:
             case ItemType.Melee:
                 value += Globals.Tables.WeaponTable[item.TotalEnhancementBonus];
-                value += item.Masterwork || item.SpecialMaterial.MwType == MwType.AddIn ? 300 : 0;
+                value += item.SpecialMaterial != null && (item.Masterwork || item.SpecialMaterial.MwType == MwType.AddIn) ? 300 : 0;
                 break;
         }
 

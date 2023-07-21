@@ -7,45 +7,90 @@
 
 <MudText Typo="Typo.h5">PF1e Item Creator</MudText>
 
+
 <MudGrid>
-    <MudItem xs="12" sm="12">
-        <MudTable Items="@ItemCreation.SpecialAbilities" Hover="true" SortLabel="Sort By">
-            <ToolBarContent>
-                <MudText Typo="Typo.h6">Ability List</MudText>
-                <MudTextField @bind-Value="searchString" Placeholder="Search" Adornment="Adornment.Start" AdornmentIcon="Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0"></MudTextField>
-            </ToolBarContent>
-            <HeaderContent>
-                <MudTh>Ability name</MudTh>
-                <MudTh>Enhancement Bonus</MudTh>
-                <MudTh>Cost</MudTh>
-                <MudTh>Item Types</MudTh>
-            </HeaderContent>
-            <RowTemplate>
-                <MudTd DataLabel="Name">@context.Ability</MudTd>
-                <MudTd DataLabel="Name">@context.EnhancementBonus</MudTd>
-                <MudTd DataLabel="Name">@context.Cost</MudTd>
-                <MudTd DataLabel="Name">@ItemTypeListString(context.Types)</MudTd>
-            </RowTemplate>
-        </MudTable>
+    <MudItem xs="12" sm="6">
+        <MudPaper Class="pa-4">
+            <MudForm @ref="form" @bind-Error="@errors">
+                <MudItem xs="8" sm="4">
+                    <MudTextField T="String" Label="Base Item" Required="true" @bind-Value="Item.BaseItem"/>
+                </MudItem>
+                <MudItem xs="2" sm="1">
+                    <MudTextField T="Int32" Label="Base Value" Required="true" @bind-Value="Item.BaseValue"/>
+                </MudItem>
+                <MudItem xs="2" sm="1">
+                    <MudTextField T="Int32" Label="Base Weight" Required="true" @bind-Value="Item.Weight"/>
+                </MudItem>
+                <MudItem xs="2" sm="1">
+                    <MudTextField T="Int16" Label="Enhancement Bonus" Required="false" @bind-Value="Item.EnhancementBonus"/>
+                </MudItem>
+                <MudItem xs="2" sm="1">
+                    <MudCheckBox T="Boolean" Label="Masterwork" Required="false" @bind-Checked="Item.Masterwork"/>
+                </MudItem>
+
+                <MudItem xs="6">
+                    <MudSelect T="ItemType" @bind-Value="Item.ItemType" Label="Item Type" SelectedValuesChanged="@(() => UpdateItemType(Item.ItemType))" AnchorOrigin="Origin.BottomCenter">
+                        @foreach (ItemType itemType in Enum.GetValues(typeof(ItemType)))
+                        {
+                            <MudSelectItem Value="@itemType"/>
+                        }
+                    </MudSelect>
+                </MudItem>
+
+                <MudSelect T="SpecialAbility" Label="Special Abilities" ToStringFunc="@abilityConverter" MultiSelection="true" @bind-SelectedValues="_selectedAbilities">
+                    @foreach (var ability in _filteredAbilities)
+                    {
+                        <MudSelectItem T="SpecialAbility" Value="@(ability)">@(ability.EnhancementBonus) - @(ability.Ability)</MudSelectItem>
+                    }
+                </MudSelect>
+                
+                
+                <MudSelect T="SpecialMaterial" Label="Special Material" ToStringFunc="@materialConverter" @bind-Value="Item.SpecialMaterial">
+                    @foreach (var material in ItemCreation.SpecialMaterials)
+                    {
+                        <MudSelectItem T="SpecialMaterial" Value="@(material)">@(material.Material)</MudSelectItem>
+                    }
+                </MudSelect>
+
+                <MudItem xs="4">
+                    <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="@(() => UpdateItem(Item))">Calculate Item</MudButton>
+                </MudItem>
+            </MudForm>
+        </MudPaper>
+    </MudItem>
+    <MudItem xs="12" sm="6">
+        <MudPaper Class="pa-4">
+            <MudText>@(Item.Name)</MudText>
+            <MudText>@(Item.ItemValue)gp</MudText>
+            <MudText>@(Item.Weight)lbs</MudText>
+        </MudPaper>
     </MudItem>
 </MudGrid>
 
 
 @code {
-    private ItemCreation ItemCreation = new ItemCreation();
-    private string searchString;
+    MudForm form;
+    String[] errors = {};
+    private ItemCreation ItemCreation = new();
+    private Item Item = new();
 
-    private string ItemTypeListString(List<ItemType> itemTypes)
+    private List<SpecialAbility> _filteredAbilities = new();
+    private IEnumerable<SpecialAbility> _selectedAbilities { get; set; } = new HashSet<SpecialAbility>() {};
+
+    private void UpdateItemType(ItemType itemType)
     {
-        StringBuilder sb = new StringBuilder();
-
-        foreach (var itemType in itemTypes)
-        {
-            sb.Append(itemType + ", ");
-        }
-
-        sb.Remove(sb.Length - 2, 2);
-        
-        return sb.ToString();
+        Item.ItemType = itemType;
+        _filteredAbilities = ItemCreation.SpecialAbilities.FindAll(a => a.Types.Contains(itemType));
+        StateHasChanged();
     }
+
+    private void UpdateItem(Item item)
+    {
+        item.SpecialAbilitiesList = _selectedAbilities.ToList();
+        Item = item;
+        StateHasChanged();
+    }
+
+    Func<SpecialAbility, String> abilityConverter = a => a?.Ability;
+    Func<SpecialMaterial, String> materialConverter = m => m?.Material;
 }

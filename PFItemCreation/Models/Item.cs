@@ -8,6 +8,10 @@ public class Item
     public Item()
     {
         SpecialAbilitiesList = new List<SpecialAbility>();
+        BaseValue = 0;
+        Weight = 0;
+        EnhancementBonus = 0;
+        Masterwork = false;
     }
     public String BaseItem { get; set; }
 
@@ -15,7 +19,7 @@ public class Item
 
     public ItemType ItemType { get; set; }
 
-    public List<SpecialAbility> SpecialAbilitiesList { get; set; }
+    public List<SpecialAbility>? SpecialAbilitiesList { get; set; }
 
     public Int32 BaseValue { get; set; }
 
