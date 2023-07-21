@@ -1,6 +1,6 @@
-﻿using PFItemCreation.Models;
+﻿using PF1eItemCreation.Models;
 
-namespace PFItemCreation;
+namespace PF1eItemCreation;
 
 public class Calculations
 {
@@ -14,7 +14,7 @@ public class Calculations
     {
         Int16 bonus = 0;
 
-        if(item.SpecialAbilitiesList.Count > 0)
+        if (item.SpecialAbilitiesList.Count > 0)
             foreach (var ability in item.SpecialAbilitiesList)
                 if (ability.Cost == 0)
                     bonus += ability.EnhancementBonus;
@@ -82,7 +82,7 @@ public class Calculations
 
                     break;
             }
-            
+
             if (item.TotalEnhancementBonus > 0 || item.SpecialAbilitiesList.Count > 0)
             {
                 var magicIncrease = item.SpecialMaterial.MagicIncrease;
@@ -137,7 +137,7 @@ public class Calculations
             }
         }
 
-        if(item.SpecialAbilitiesList.Count > 0)
+        if (item.SpecialAbilitiesList.Count > 0)
             foreach (var ability in item.SpecialAbilitiesList)
                 if (ability.Cost > 0)
                     value += ability.Cost;
@@ -150,13 +150,19 @@ public class Calculations
             case ItemType.HeavyArmor:
             case ItemType.Shield:
                 value += Globals.Tables.ArmorTable[item.TotalEnhancementBonus];
-                value += item.SpecialMaterial != null && (item.Masterwork || item.SpecialMaterial.MwType == MwType.AddIn) ? 150 : 0;
+                value += (item.SpecialMaterial != null && item.SpecialMaterial.MwType == MwType.AddIn) ||
+                         item.Masterwork
+                    ? 150
+                    : 0;
                 break;
             case ItemType.Ammunition:
             case ItemType.Ranged:
             case ItemType.Melee:
                 value += Globals.Tables.WeaponTable[item.TotalEnhancementBonus];
-                value += item.SpecialMaterial != null && (item.Masterwork || item.SpecialMaterial.MwType == MwType.AddIn) ? 300 : 0;
+                value += item.SpecialMaterial is {MwType: MwType.AddIn} ||
+                         item.Masterwork
+                    ? 300
+                    : 0;
                 break;
         }
 
@@ -174,9 +180,10 @@ public class Calculations
         String itemName = "";
 
         if (item.Masterwork)
-            itemName += "Masterwork, ";
+            if((item.SpecialMaterial != null && item.SpecialMaterial.MwType == MwType.NotIncluded) || item.SpecialMaterial == null)
+                itemName += "Masterwork, ";
 
-        if(item.SpecialAbilitiesList.Count > 0)
+        if (item.SpecialAbilitiesList.Count > 0)
         {
             foreach (var ability in item.SpecialAbilitiesList)
             {

@@ -1,5 +1,5 @@
-﻿@using PFItemCreation
-@using PFItemCreation.Models
+﻿@using PF1eItemCreation
+@using PF1eItemCreation.Models
 @using System.Text
 @page "/PF1eItemCreator"
 
@@ -7,58 +7,70 @@
 
 <MudText Typo="Typo.h5">PF1e Item Creator</MudText>
 
-
-<MudGrid>
-    <MudItem xs="12" sm="6">
+<MudGrid Spacing="@spacing">
+    <MudItem xs="6">
         <MudPaper Class="pa-4">
             <MudForm @ref="form" @bind-Error="@errors">
-                <MudItem xs="8" sm="4">
+                <MudItem xs="12">
                     <MudTextField T="String" Label="Base Item" Required="true" @bind-Value="Item.BaseItem"/>
                 </MudItem>
-                <MudItem xs="2" sm="1">
-                    <MudTextField T="Int32" Label="Base Value" Required="true" @bind-Value="Item.BaseValue"/>
-                </MudItem>
-                <MudItem xs="2" sm="1">
-                    <MudTextField T="Int32" Label="Base Weight" Required="true" @bind-Value="Item.Weight"/>
-                </MudItem>
-                <MudItem xs="2" sm="1">
-                    <MudTextField T="Int16" Label="Enhancement Bonus" Required="false" @bind-Value="Item.EnhancementBonus"/>
-                </MudItem>
-                <MudItem xs="2" sm="1">
-                    <MudCheckBox T="Boolean" Label="Masterwork" Required="false" @bind-Checked="Item.Masterwork"/>
-                </MudItem>
+                
+                <div class="d-flex">
+                    <MudItem>
+                        <MudTextField T="Int32" Label="Base Value" Required="true" @bind-Value="Item.BaseValue"/>
+                    </MudItem>
+                    <MudItem>
+                        <MudTextField T="Int32" Label="Base Weight" Required="true" @bind-Value="Item.Weight"/>
+                    </MudItem>
+                    <MudItem>
+                        <MudTextField T="Int16" Label="Enhancement Bonus" Required="false" @bind-Value="Item.EnhancementBonus"/>
+                    </MudItem>
+                    <MudItem>
+                        <MudCheckBox T="Boolean" Label="Masterwork" Required="false" @bind-Checked="Item.Masterwork"/>
+                    </MudItem>
+                </div>
 
-                <MudItem xs="6">
-                    <MudSelect T="ItemType" @bind-Value="Item.ItemType" Label="Item Type" SelectedValuesChanged="@(() => UpdateItemType(Item.ItemType))" AnchorOrigin="Origin.BottomCenter">
-                        @foreach (ItemType itemType in Enum.GetValues(typeof(ItemType)))
+                <div classs="d-flex">
+                    <MudItem>
+                        <MudSelect T="ItemType" @bind-Value="Item.ItemType" Label="Item Type" SelectedValuesChanged="@(() => UpdateItemType(Item.ItemType))" AnchorOrigin="Origin.BottomCenter">
+                            @foreach (ItemType itemType in Enum.GetValues(typeof(ItemType)))
+                            {
+                                <MudSelectItem Value="@itemType"/>
+                            }
+                        </MudSelect>
+                    </MudItem>
+                    <MudItem>
+                        <MudSelect T="SpecialMaterial" Label="Special Material" ToStringFunc="@materialConverter" @bind-Value="Item.SpecialMaterial">
+                            @foreach (var material in ItemCreation.SpecialMaterials)
+                            {
+                                <MudSelectItem T="SpecialMaterial" Value="@(material)">@(material.Material)</MudSelectItem>
+                            }
+                        </MudSelect>
+                    </MudItem>
+                </div>
+                
+                <MudItem>
+                    <MudSelect T="SpecialAbility" Label="Special Abilities" ToStringFunc="@abilityConverter" MultiSelection="true" @bind-SelectedValues="_selectedAbilities">
+                        @foreach (var ability in _filteredAbilities)
                         {
-                            <MudSelectItem Value="@itemType"/>
+                            <MudSelectItem T="SpecialAbility" Value="@(ability)">@(ability.EnhancementBonus) - @(ability.Ability)</MudSelectItem>
                         }
                     </MudSelect>
                 </MudItem>
 
-                <MudSelect T="SpecialAbility" Label="Special Abilities" ToStringFunc="@abilityConverter" MultiSelection="true" @bind-SelectedValues="_selectedAbilities">
-                    @foreach (var ability in _filteredAbilities)
-                    {
-                        <MudSelectItem T="SpecialAbility" Value="@(ability)">@(ability.EnhancementBonus) - @(ability.Ability)</MudSelectItem>
-                    }
-                </MudSelect>
-                
-                
-                <MudSelect T="SpecialMaterial" Label="Special Material" ToStringFunc="@materialConverter" @bind-Value="Item.SpecialMaterial">
-                    @foreach (var material in ItemCreation.SpecialMaterials)
-                    {
-                        <MudSelectItem T="SpecialMaterial" Value="@(material)">@(material.Material)</MudSelectItem>
-                    }
-                </MudSelect>
+
 
                 <MudItem xs="4">
                     <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="@(() => UpdateItem(Item))">Calculate Item</MudButton>
                 </MudItem>
+                <MudItem xs="4">
+                    <MudButton Variant="Variant.Filled" Color="Color.Secondary" DisableElevation="true" OnClick="@(() => form.ResetAsync())" Class="mx-2">Reset</MudButton>
+                </MudItem>
             </MudForm>
         </MudPaper>
     </MudItem>
-    <MudItem xs="12" sm="6">
+
+    <MudItem xs="6">
         <MudPaper Class="pa-4">
             <MudText>@(Item.Name)</MudText>
             <MudText>@(Item.ItemValue)gp</MudText>
@@ -71,6 +83,7 @@
 @code {
     MudForm form;
     String[] errors = {};
+    public int spacing { get; set; } = 2;
     private ItemCreation ItemCreation = new();
     private Item Item = new();
 

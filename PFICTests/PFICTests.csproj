@@ -19,7 +19,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\PFItemCreation\PFItemCreation.csproj" />
+      <ProjectReference Include="..\PF1eItemCreation\PF1eItemCreation.csproj" />
     </ItemGroup>
 
 </Project>

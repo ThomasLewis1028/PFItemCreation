@@ -1,6 +1,6 @@
 using System.Text;
-using PFItemCreation;
-using PFItemCreation.Models;
+using PF1eItemCreation;
+using PF1eItemCreation.Models;
 
 namespace PFICTests;
 

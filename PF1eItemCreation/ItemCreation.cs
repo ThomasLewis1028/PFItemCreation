@@ -1,9 +1,9 @@
 ﻿using System.Reflection;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using PFItemCreation.Models;
+using PF1eItemCreation.Models;
 
-namespace PFItemCreation;
+namespace PF1eItemCreation;
 
 static class Globals
 {
